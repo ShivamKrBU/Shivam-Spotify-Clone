@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: solid rgb(0, 0, 0);
+    width: 23%;
+    position: fixed;
+    height: 800px;
+}
+
+.upper-nav{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    margin: 7px 3px 7px 7px;
+    border-radius: 12px;
+}
+.home1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    color: #b6b6b6;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+.fa{
+    color: white;
+    padding: 10px;
+   
+}
+
+
+.lower-nav{
+    margin-top: 20px;
+    height: 570px;
+    margin: 7px 3px 7px 7px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 12px;
+}
+.lower-nav1{
+    display: flex;
+   flex-direction: row; 
+   font-size:18px;
+   margin-left: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+}
+.add-lib{
+    text-decoration: none !important;
+    font-size:30px;
+    color: #b6b6b6;
+    margin-left: 160px;
+}
+.add-lib a {
+    text-decoration: none;
+    color: #b6b6b6;
+  }
+.liberary{
+    color: #b6b6b6;
+}
+
+.lower-nav p{
+    color: #b6b6b6;
+   margin-left: 20px;
+   
+   background-color: #171616; 
+   width: 60px;
+   border-radius: 12px;
+   margin-top: 0%;
+   font-size: 14px;
+   padding: 3px 3px 3px 10px;
+   
+}
+.lib-search{
+    display: flex;
+    flex-direction: row; 
+    font-size:18px;
+    margin-left: 15px;  
+    height: 30px;
+    align-items: baseline;
+    margin-top: 0%;
+    padding-top: 0%;
+   
+}
+.add-lib1{
+    text-decoration: none !important;
+    font-size:17px;
+    color: #b6b6b6;
+    margin-left: 185px;
+}
+.add-lib1 a {
+    text-decoration: none;
+    color: #b6b6b6;
+  }
+  .lower-nav2{
+    display: flex;
+   flex-direction: row; 
+   font-size:18px;
+   margin-left: 15px;
+  
+}
+.playlist{
+    margin: 0 10px 0 15px;
+    color: #b6b6b6;
+    height: 390px;
+
+}
+.playlist1{
+    background-color: #171616; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-top: 11px;
+    padding-left: 10px;
+    text-decoration: bold none;
+}
+.playlist11{
+    background-color: #171616;
+    margin-bottom: 5px; 
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    padding-left: 10px;
+   
+}
+.playlist2{
+    background-color: #171616; 
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-top: 11px;
+    padding-left: 10px;
+}
+.playlist22{
+    background-color: #171616; 
+    margin-bottom: 5px; 
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    padding-left: 10px;
+   
+}
+.fa-music{
+    font-size: x-large;
+}
+.fa-folder{
+    font-size: x-large;
+}
+.fa{
+    color: #b6b6b6; 
+}
+
+.shiv{
+  font-size: 13px;
+  padding-top: 2px;  
+}
+
+.content1{
+    margin: 0 10px 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.content{
+    color: white;
+    font-size: 12px;
+}
+.user{
+    color: white;
+    font-size: 12px;
+}
+.brand img{
+    width: 44px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding: 12px 0 12px 79px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; 
+    color: rgb(0, 0, 0);
+    background-color: #1DB954;
+}
+.upper-showroom{
+    width: 76.2%;
+    margin-left: 23%;
+    height: 75px;
+    position: fixed; 
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px; 
+}
+.upper-showroom1{
+    padding: 7px 0px 5px 5px;
+   
+}
+.pre-nxt{
+    width: 10%;
+    color: #b6b6b6;
+    margin-left: 1%;
+}
+.prev,
+.next {
+    cursor: pointer;
+    width: 15px;
+    height: 70px;
+    font-size: 25px;
+    transition: 0.6s ease;
+    user-select: none;
+  padding: 10px;
+    
+}
+
+.leftIcon{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.txt1 {
+    color: #b6b6b6;
+    text-decoration: none !important;
+}
+.rightIcon{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightIcon h1{
+color: #b6b6b6;
+}
+
+.login-btn{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    outline:none;
+    border:none;
+    background-color:rgb(255, 255, 255);
+    font-size:15px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.login-btn:hover{
+    background-color: #1DB954;
+}
+
+.search-container{
+    width:60%;
+    display: flex;
+    border-radius: 50px;
+    padding-left: 2%;
+  
+}
+.search-bar{
+    width:85%;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    color: rgb(218, 215, 215);
+    background-color: #171616;
+}
+.search-btn{
+    width: 15%;
+    height: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: none ;
+    border: none;
+    background-color: #171616;
+}
+.showroom1{
+    background-color: rgb(0, 0, 0);
+    width: 76.5%;
+    margin-left: 23%;
+    padding: 77px 0px 10px 5px;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 93.75%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 34px;
+  
+}
+.songItemContainer1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.songItemContainer2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.songList{
+    padding-left: 8px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    width: 99.1%;
+    background-color: #171616;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    border-radius: 12px;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.icons{
+   justify-content: center;
+   align-items: center;
+    margin-top: 6px;
+    margin-bottom: 13px; 
+    font-size: 21px;
+   
+}
+.icons i{
+    cursor: pointer;
+}
+.songInfo i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 40vw;
+    height: 3px; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 45px;
+}
+
+.songItem{
+    height: 230px;
+    width: 190px;
+    display: flex;
+    background-color: #171616;
+    color: rgb(255, 255, 255);
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.songName{
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+.songlistplay{
+    font-size: 13px;
+}
+.songItem img{
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    position: absolute;
+    left: 2vw;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 32px; 
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
+  .middle-bottom{
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Volume{
+    width: 15%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 43px;
+  }
+  #Volume1{
+    height: 3px; 
+    cursor: pointer;
+  }
